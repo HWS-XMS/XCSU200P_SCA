@@ -1,0 +1,11 @@
+#VRML V2.0 utf8
+# SW_Slide_DPDT_CK_1201M2_E-Switch_500SDP1_P4.70x4.83mm: outline from E-Switch drawing T521001 rev E (12.70 x 11.43 mm, 9.14 mm body, 5.08 mm actuator)
+Transform { translation 1.8504 -0.9508 0.2992 children [ Shape { appearance Appearance { material Material { diffuseColor 0.55 0.08 0.08 specularColor 0.3 0.3 0.3 shininess 0.3 } } geometry Box { size 5.0000 4.5000 0.5984 } } ] }
+Transform { translation 1.8504 -0.9508 2.0984 children [ Shape { appearance Appearance { material Material { diffuseColor 0.82 0.82 0.84 specularColor 0.3 0.3 0.3 shininess 0.3 } } geometry Box { size 5.0000 4.5000 3.0000 } } ] }
+Transform { translation 1.4252 -0.9508 4.5984 children [ Shape { appearance Appearance { material Material { diffuseColor 0.2 0.2 0.2 specularColor 0.3 0.3 0.3 shininess 0.3 } } geometry Box { size 1.5197 1.5197 2.0000 } } ] }
+Transform { translation 0.0000 0.0000 -0.9843 children [ Shape { appearance Appearance { material Material { diffuseColor 0.8 0.8 0.75 specularColor 0.3 0.3 0.3 shininess 0.3 } } geometry Box { size 0.2992 0.5000 1.9685 } } ] }
+Transform { translation 1.8504 0.0000 -0.9843 children [ Shape { appearance Appearance { material Material { diffuseColor 0.8 0.8 0.75 specularColor 0.3 0.3 0.3 shininess 0.3 } } geometry Box { size 0.2992 0.5000 1.9685 } } ] }
+Transform { translation 3.7008 0.0000 -0.9843 children [ Shape { appearance Appearance { material Material { diffuseColor 0.8 0.8 0.75 specularColor 0.3 0.3 0.3 shininess 0.3 } } geometry Box { size 0.2992 0.5000 1.9685 } } ] }
+Transform { translation 0.0000 -1.9016 -0.9843 children [ Shape { appearance Appearance { material Material { diffuseColor 0.8 0.8 0.75 specularColor 0.3 0.3 0.3 shininess 0.3 } } geometry Box { size 0.2992 0.5000 1.9685 } } ] }
+Transform { translation 1.8504 -1.9016 -0.9843 children [ Shape { appearance Appearance { material Material { diffuseColor 0.8 0.8 0.75 specularColor 0.3 0.3 0.3 shininess 0.3 } } geometry Box { size 0.2992 0.5000 1.9685 } } ] }
+Transform { translation 3.7008 -1.9016 -0.9843 children [ Shape { appearance Appearance { material Material { diffuseColor 0.8 0.8 0.75 specularColor 0.3 0.3 0.3 shininess 0.3 } } geometry Box { size 0.2992 0.5000 1.9685 } } ] }

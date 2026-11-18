@@ -41,3 +41,18 @@ fp-info-cache
 
 # Local project settings
 *.kicad_prl
+
+# Fabrication outputs are kept despite the *.csv rule above
+!production/*.csv
+
+# Manual snapshots, superseded by git
+backup/
+
+# Local only
+docs/
+sim/shunt/
+tools/
+xcsu200p/
+
+# OS
+.DS_Store

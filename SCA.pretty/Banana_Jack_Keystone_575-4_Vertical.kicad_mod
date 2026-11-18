@@ -1,0 +1,118 @@
+(footprint "Banana_Jack_Keystone_575-4_Vertical"
+	(version 20241229)
+	(generator "pcbgen")
+	(layer "F.Cu")
+	(descr "Keystone 575-4 banana jack, swage or solder mount, vertical: flange 7.9 mm x 2.36 mm on the board, barrel 5.2 mm x 5.5 mm through it, bore 4.2 mm for a standard banana plug. The hole size is not given by Keystone: 5.4 mm chosen for the 5.2 mm barrel.")
+	(tags "banana jack 4mm Keystone 575-4")
+	(property "Reference" "REF**"
+		(at 0 -6.2 0)
+		(layer "F.SilkS")
+		(uuid "43363f21-7241-5836-be7c-1e81eb15c8ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Banana_Jack_Keystone_575-4_Vertical"
+		(at 0 6.2 0)
+		(layer "F.Fab")
+		(uuid "715a4f2c-9aa8-502f-8e7c-2f2fefca4090")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.keyelco.com/userAssets/file/M60_2p106-107.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "758c68e7-a6c3-5aad-a142-dc2b6ab9e34e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Banana jack, non-insulated, for PCB swage or solder mounting"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a6c7ce7-46e2-504f-83cb-0d193a3e552a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 3.95 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "e6ca4c05-4ad5-5927-afa3-46c2436c0aa7")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "44a06265-e49a-577a-8bf9-148360cde77a")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.9 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b3ad1169-654e-5361-bcd9-1bef1b49a1f8")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 5.15 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c305cfcc-8274-53bb-8dc0-dcd24813a1c9")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 9 9)
+		(drill 5.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b565479e-04f0-5f88-ad40-65d5cd51d74d")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/SCA.3dshapes/Banana_Jack_Keystone_575-4_Vertical.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

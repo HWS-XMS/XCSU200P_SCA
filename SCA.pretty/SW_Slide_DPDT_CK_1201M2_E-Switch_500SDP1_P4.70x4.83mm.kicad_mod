@@ -1,0 +1,169 @@
+(footprint "SW_Slide_DPDT_CK_1201M2_E-Switch_500SDP1_P4.70x4.83mm"
+	(version 20241229)
+	(generator "pcbgen")
+	(layer "F.Cu")
+	(descr "Slide switch DPDT ON-ON, straight PC terminals, 4.70 x 4.83 mm, holes 1.85 mm: C&K 1201M2S3CQE2, E-Switch 500SDP1S1M2QEA (drawing T521001 rev E). Commons are pins 2 and 5; pins 1-2-3 lie along the slide direction.")
+	(tags "slide switch DPDT 6A 1201 500SDP1")
+	(property "Reference" "REF**"
+		(at 4.7 -4.5 0)
+		(layer "F.SilkS")
+		(uuid "d1f73061-db5e-53e0-8a29-2d97cb51a486")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_Slide_DPDT_CK_1201M2_E-Switch_500SDP1_P4.70x4.83mm"
+		(at 4.7 9.329999999999998 0)
+		(layer "F.Fab")
+		(uuid "ce021e70-6be9-5532-ae40-e81da8351e68")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/2D/specs/500SDP1S1M2QEA.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ebcb3676-44f9-580c-ad05-35f0ec94b7fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Slide switch DPDT ON-ON, 5 A / 6 A class"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "162bd3a5-203d-547e-8023-c2e46805ddf6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -1.650 -3.300)
+		(end 11.050 8.130)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "cf29ad89-d0e9-532d-9037-0463ae8dd876")
+	)
+	(fp_rect
+		(start 1.690 0.485)
+		(end 5.550 4.345)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f44304fe-8d4d-550e-a4aa-cbffaad10c96")
+	)
+	(fp_rect
+		(start 1.690 0.485)
+		(end 7.710 4.345)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a9b449fb-d969-5a5f-8512-553b83bd2958")
+	)
+	(fp_rect
+		(start -1.760 -3.410)
+		(end 11.160 8.240)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d4b48dcc-a7d9-5c5a-ba48-5a7191a47ba3")
+	)
+	(fp_rect
+		(start -1.900 -3.550)
+		(end 11.300 8.380)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2dd4176e-8644-5189-a5ff-1fb85875071d")
+	)
+	(pad "1" thru_hole rect
+		(at 0.00 0.00)
+		(size 3 3)
+		(drill 1.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "26626f86-4693-5d99-9ed7-5e0b4dafdd9b")
+	)
+	(pad "2" thru_hole circle
+		(at 4.70 0.00)
+		(size 3 3)
+		(drill 1.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4f12a19d-d9d2-537a-ace8-07762eb6b662")
+	)
+	(pad "3" thru_hole circle
+		(at 9.40 0.00)
+		(size 3 3)
+		(drill 1.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5ae3f5ae-b614-5b70-b6aa-438dbb240c8f")
+	)
+	(pad "4" thru_hole circle
+		(at 0.00 4.83)
+		(size 3 3)
+		(drill 1.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "da6244c1-8928-5f65-a967-d222d3c13f5d")
+	)
+	(pad "5" thru_hole circle
+		(at 4.70 4.83)
+		(size 3 3)
+		(drill 1.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "85275985-218b-5d86-9c4b-87dffb1aeb53")
+	)
+	(pad "6" thru_hole circle
+		(at 9.40 4.83)
+		(size 3 3)
+		(drill 1.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2d37bd6d-7c08-5762-8149-d5c96af81819")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/SCA.3dshapes/SW_Slide_DPDT_CK_1201M2_E-Switch_500SDP1_P4.70x4.83mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

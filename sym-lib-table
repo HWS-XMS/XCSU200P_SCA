@@ -1,0 +1,6 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "AMD_XCSU200P") (type "KiCad") (uri "${KIPRJMOD}/AMD_XCSU200P.kicad_sym") (options "") (descr ""))
+	(lib (name "sca_power") (type "KiCad") (uri "${KIPRJMOD}/sca_power.kicad_sym") (options "") (descr "Power symbols of the board's rails (generated)"))
+	(lib (name "sca_parts") (type "KiCad") (uri "${KIPRJMOD}/sca_parts.kicad_sym") (options "") (descr "Symbols of parts not in the KiCad libraries (generated)"))
+)
